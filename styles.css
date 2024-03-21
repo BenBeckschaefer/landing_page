@@ -1,8 +1,48 @@
 
 .header {
-
-
     background-color: #1F2937;
+    color: white;
+    font-family: "roboto",  Sans-Serif;
+}
+.header-content {
+
+    display: flex;
 }
 
 
+.headerlogo-text {
+
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.heromain-text {
+
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header-header {
+    display : flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    
+}
